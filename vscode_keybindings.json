@@ -1,0 +1,47 @@
+[
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "undo",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "home",
+    "command": "cursorHome",
+    "when": "editorTextFocus && !terminalFocus"
+  },
+  {
+    "key": "shift+home",
+    "command": "cursorHomeSelect",
+    "when": "editorTextFocus && !terminalFocus"
+  },
+  {
+    "key": "end",
+    "command": "cursorEnd",
+    "when": "editorTextFocus && !terminalFocus"
+  },
+  {
+    "key": "shift+end",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus && !terminalFocus"
+  }
+]
