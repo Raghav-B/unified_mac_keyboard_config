@@ -10,6 +10,31 @@
     "when": "!terminalFocus"
   },
   {
+    "key": "ctrl+shift+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.reopenClosedEditor",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.newWindow",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "editor.actions.findWithArgs",
+    "when": "!terminalFocus"
+  },
+  {
     "key": "ctrl+x",
     "command": "editor.action.clipboardCutAction",
     "when": "!terminalFocus"
@@ -22,6 +47,31 @@
   {
     "key": "ctrl+z",
     "command": "undo",
+    "when": "!terminalFocus"
+  },  
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+z",
+    "command": "redo",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands",
     "when": "!terminalFocus"
   },
   {
