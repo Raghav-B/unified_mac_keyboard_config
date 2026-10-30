@@ -155,6 +155,22 @@
                         ]
                     },
                     {
+                        "description": "Shift+Windows+S starts rectangular clipboard capture",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": ["option", "shift"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "shell_command": "/usr/sbin/screencapture -i -c" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Tap Windows key to open Mission Control",
                         "manipulators": [
                             {
