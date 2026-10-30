@@ -161,7 +161,7 @@
                                 "from": {
                                     "key_code": "s",
                                     "modifiers": {
-                                        "mandatory": ["left_shift", "left_command"],
+                                        "mandatory": ["shift", "command"],
                                         "optional": ["any"]
                                     }
                                 },
