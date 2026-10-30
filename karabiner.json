@@ -155,27 +155,6 @@
                         ]
                     },
                     {
-                        "description": "Shift+Win+S copies a rectangular screenshot to clipboard",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": {
-                                        "mandatory": ["shift", "command"],
-                                        "optional": ["any"]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "4",
-                                        "modifiers": ["left_command", "left_control", "left_shift"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Tap Windows key to open Mission Control",
                         "manipulators": [
                             {
